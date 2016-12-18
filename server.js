@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
-const port = process.env.port || 3000; // process.env collect all env variable as key value pairs 
+const port = process.env.PORT || 3000; // process.env collect all env variable as key value pairs 
 
 var app = express();
 
